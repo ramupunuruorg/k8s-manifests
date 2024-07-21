@@ -19,13 +19,13 @@ spec:
       labels:
         app.kubernetes.io/name: myapp-ui
     spec:
-      topologySpreadConstarints:
-      - maxSkew: 1
-        topologyKey: kubernetes.io/hostname
-        whenUnsatisfiable: DoNotSchedule
-        labelSelector: 
-          matchLabels:
-            app.kubernetes.io/name: myapp-ui
+      # topologySpreadConstarints:
+      # - maxSkew: 1
+      #   topologyKey: kubernetes.io/hostname
+      #   whenUnsatisfiable: DoNotSchedule
+      #   labelSelector: 
+      #     matchLabels:
+      #       app.kubernetes.io/name: myapp-ui
       matchLableKeys:
       - pod-template-hash
       containers:
