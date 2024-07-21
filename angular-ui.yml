@@ -34,14 +34,7 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
-        securityContext: 
-          allowPrivilegedEscalation: false
-          capabilities:
-            drop:
-            - ALL
-          runAsNonRoot: true
-          seccompProfile:
-            type: RuntimeDefault
+        
             
 
 ####### The below is example for NodePort #####
