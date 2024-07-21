@@ -8,7 +8,7 @@ metadata:
   namespace: myapp
 spec:
   containers:
-    - image: krishnamaram2/idp-ui:4fe4da70a1ff7d0fb573afd176ae557aebb56688
+    - image: ramupunuru/angular-ui:4fe4da70a1ff7d0fb573afd176ae557aebb56688
       name: myapp-ui
       imagePullPolicy: Always
       ports:
