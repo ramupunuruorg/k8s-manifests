@@ -11,7 +11,7 @@
   ```
 * Step 3: Deploy Argo CD service
   ```
-  git clone https://github.com/cloudstonesorg/idp-deployments.git &&  cd idp-deployments/argocd && kubectl apply -f service.yml
+  git clone https://github.com/ramupunuruorg/k8s-manifests.git &&  cd argocd && kubectl apply -f service.yml
   ```
 * Step 4: Access Argo CD UI
   ```
