@@ -25,3 +25,11 @@ spec:
                 name: myapp-ui-svc
                 port:
                   number: 80
+           - path: /flask
+            pathType: Prefix
+            backend:
+              service:
+                name: pythonapp-svc
+                port:
+                  number: 80
+           
