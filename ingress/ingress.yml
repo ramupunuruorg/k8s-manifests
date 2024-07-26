@@ -5,13 +5,6 @@ metadata:
   name: my-ingress
   namespace: myapp
   annotations:
-    # nginx.org/client-max-body-size: "10m"
-    # nginx.org/location-snippets: |
-    #   add_header Last-Modified $date_gmt;
-    #   add_header Cache-Control 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0';
-    #   if_modified_since off;
-    #   expires off;
-    #   etag off;
 spec:
   ingressClassName: nginx
   rules:
@@ -26,8 +19,8 @@ spec:
                 port:
                   number: 80
            - path: /flask
-            pathType: Prefix
-            backend:
+             pathType: Prefix
+             backend:
               service:
                 name: pythonapp-svc
                 port:
