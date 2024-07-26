@@ -22,6 +22,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: angular-ui-svc
+                name: myapp-ui-svc
                 port:
                   number: 80
