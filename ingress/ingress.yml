@@ -21,7 +21,7 @@ spec:
           - path: /flask
             pathType: Prefix
             backend:
-            service:
-              name: pythonapp-svc
-              port:
-                number: 80
+              service:
+                name: pythonapp-svc
+                port:
+                  number: 80
