@@ -9,7 +9,7 @@ metadata:
   namespace: myapp
 spec:
   containers:
-    - image: ramupunuru/python-flask:b044a9067c4a080a0486113bc2531e5f133f3d37
+    - image: ramupunuru/python-flask:26f788efc93f9de8767f80b03cf1370f572785ab
       name: python-app
       imagePullPolicy: Always
       ports:
