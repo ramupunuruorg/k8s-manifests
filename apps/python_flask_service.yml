@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: pythonapp-svc
-  namespace: pythonapp
+  namespace: myapp
 spec:
   type: ClusterIP
   selector:
