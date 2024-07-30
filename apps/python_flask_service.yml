@@ -4,10 +4,10 @@ metadata:
   name: pythonapp-svc
   namespace: myapp
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app.kubernetes.io/name: python-app
   ports:
     - port: 80
-      targetPort: 5000
-      # nodePort: 30009
+      # targetPort: 5000
+      nodePort: 30009
