@@ -68,7 +68,7 @@
   ```
   kubectl apply -f service/loadbalancer.yaml
   ```
-* Step 9: Fetch all services under namespace nginx-ingree
+* Step 9: Fetch all services under namespace nginx-ingress
   ```
   kubectl get svc -n nginx-ingress
   ```
